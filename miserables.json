@@ -1,0 +1,227 @@
+{
+  "nodes": [
+
+    {"id": "NEXT-GENERATION CITIES", "group": 1, "color": "#000"},
+    {"id": "Alice Jarry", "group": 2, "color": "#422893"},
+    {"id": "Ursula Eicker", "group": 3, "color": "#422893"},
+    {"id": "Mohamed Ouf", "group": 4, "color": "#422893"},
+    {"id": "Jing Iris Hu", "group": 5, "color": "#422893"},
+    {"id": "Chunyan Lai", "group": 6, "color": "#422893"},
+    {"id": "Carly Ziter", "group": 7, "color": "#422893"},
+
+    {"id": "Renewable Energy", "group": 8, "color": "#434343"},
+    {"id": "Sustainable Energy", "group": 9, "color": "#422893"},
+    {"id": "Resilient Future", "group": 10, "color": "#434343"},
+    {"id": "Design Concepts", "group": 11, "color": "#434343"}, 
+    {"id": "Distribution Systems", "group": 12, "color": "#434343"}, 
+    {"id": "Smart Buildings", "group": 13, "color": "#434343"}, 
+    {"id": "Urban Biodiversity", "group": 14, "color": "#434343"}, 
+    {"id": "Urban Green Spaces", "group": 15, "color": "#434343"}, 
+    {"id": "Biomaterials", "group": 16, "color": "#434343"},
+    {"id": "Air Quality", "group": 17, "color": "#434343"},
+    {"id": "Human Flourishing", "group": 18, "color": "#434343"},
+    {"id": "Future Generations", "group": 19, "color": "#434343"},
+    {"id": "Environmental (in)justice", "group": 20, "color": "#434343"},
+    {"id": "Sensing the City", "group": 21, "color": "#434343"},
+    {"id": "Data Visualization", "group": 22, "color": "#434343"},
+    {"id": "Public Art Installations", "group": 23, "color": "#434343"},
+    {"id": "Renewable Production", "group": 24, "color": "#434343"},
+    {"id": "Open Data", "group": 25, "color": "#434343"},
+    {"id": "OCC Algorithms", "group": 26, "color": "#434343"},
+    {"id": "Responsive Environments", "group": 27, "color": "#434343"},
+    {"id": "Zero Carbon Communities", "group": 28, "color": "#434343"},
+    {"id": "Accessibility", "group": 29, "color": "#434343"},
+    {"id": "Zero Carbon Transport", "group": 30, "color": "#434343"},
+    {"id": "Ecosystem Services", "group": 31, "color": "#434343"},
+  
+    {"id": "Climate Change", "group": 32, "color": "#434343"},
+    {"id": "Community Engagement", "group": 33, "color": "#434343"},
+    {"id": "Infrastructures", "group": 34, "color": "#434343"},
+    {"id": "Inclusive Urban Spaces", "group": 35, "color": "#434343"},
+    {"id": "Waste Management", "group": 36, "color": "#434343"},
+    {"id": "Recycling", "group": 37, "color": "#434343"},
+    {"id": "Upcycling", "group": 38, "color": "#434343"},
+    {"id": "Community Well-Being", "group": 39, "color": "#434343"},
+    {"id": "Healthy Cities", "group": 40, "color": "#434343"},
+    {"id": "Building Materials", "group": 41, "color": "#434343"},
+    {"id": "Public Buildings", "group": 42, "color": "#434343"},
+    {"id": "Heat Islands", "group": 43, "color": "#434343"},
+    {"id": "Artificial Intelligence", "group": 44, "color": "#434343"},
+    {"id": "Geographical Information Systems", "group": 45, "color": "#434343"},
+    {"id": "Air Filtration", "group": 46, "color": "#434343"},
+    {"id": "Building Occupants", "group": 47, "color": "#434343"},
+    {"id": "Data Collection", "group": 48, "color": "#434343"},
+    {"id": "Data Physicalization", "group": 49, "color": "#434343"},
+    {"id": "Moral Values", "group": 50, "color": "#434343"},
+    {"id": "Citizen Virtues", "group": 51, "color": "#434343"},
+    {"id": "Algorithms", "group": 52, "color": "#434343"},
+    {"id": "Adaptive Materials", "group": 53, "color": "#434343"},
+    {"id": "Citizen Science", "group": 54, "color": "#434343"},
+    {"id": "Electrified Public Transport", "group": 55, "color": "#434343"}
+
+
+
+  ],
+  "links": [
+
+    {"source": "Alice Jarry", "target": "NEXT-GENERATION CITIES", "value": 1},
+    {"source": "Ursula Eicker", "target": "NEXT-GENERATION CITIES", "value": 2},
+    {"source": "Mohamed Ouf", "target": "NEXT-GENERATION CITIES", "value": 3},
+    {"source": "Jing Iris Hu", "target": "NEXT-GENERATION CITIES", "value": 4},
+    {"source": "Chunyan Lai", "target": "NEXT-GENERATION CITIES", "value": 5},
+    {"source": "Carly Ziter", "target": "NEXT-GENERATION CITIES", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Renewable Energy", "value": 1},
+    {"source": "Ursula Eicker", "target": "Renewable Energy", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Renewable Energy", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Renewable Energy", "value": 4},
+    {"source": "Chunyan Lai", "target": "Renewable Energy", "value": 5},
+    {"source": "Carly Ziter", "target": "Renewable Energy", "value": 6},
+
+    {"source": "Ursula Eicker", "target": "Sustainable Energy", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Sustainable Energy", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Sustainable Energy", "value": 4},
+    {"source": "Chunyan Lai", "target": "Sustainable Energy", "value": 5},
+
+
+    {"source": "Alice Jarry", "target": "Resilient Future", "value": 1},
+    {"source": "Jing Iris Hu", "target": "Resilient Future", "value": 4},
+
+     {"source": "Alice Jarry", "target": "Design Concepts", "value": 1},
+
+    {"source": "Chunyan Lai", "target": "Distribution Systems", "value": 5},
+
+    {"source": "Mohamed Ouf", "target": "Smart Buildings", "value": 3},
+    {"source": "Alice Jarry", "target": "Smart Buildings", "value": 1},
+
+    {"source": "Carly Ziter", "target": "Urban Biodiversity", "value": 6},
+
+    {"source": "Carly Ziter", "target": "Urban Green Spaces", "value": 6},
+    {"source": "Ursula Eicker", "target": "Urban Green Spaces", "value": 2},
+
+    {"source": "Alice Jarry", "target": "Biomaterials", "value": 1},
+
+    {"source": "Carly Ziter", "target": "Air Quality", "value": 6},
+    {"source": "Alice Jarry", "target": "Air Quality", "value": 1},
+
+    {"source": "Jing Iris Hu", "target": "Human Flourishing", "value": 4},
+
+    {"source": "Jing Iris Hu", "target": "Future Generations", "value": 4},
+
+    {"source": "Carly Ziter", "target": "Environmental (in)justice", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Sensing the City", "value": 1},
+    {"source": "Carly Ziter", "target": "Sensing the City", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Data Visualization", "value": 1},
+
+    {"source": "Alice Jarry", "target": "Public Art Installations", "value": 1},
+
+    {"source": "Ursula Eicker", "target": "Renewable Production", "value": 2},
+
+    {"source": "Alice Jarry", "target": "Open Data", "value": 1},
+    {"source": "Ursula Eicker", "target": "Open Data", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Open Data", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Open Data", "value": 4},
+    {"source": "Chunyan Lai", "target": "Open Data", "value": 5},
+    {"source": "Carly Ziter", "target": "Open Data", "value": 6},
+
+
+    {"source": "Mohamed Ouf", "target": "OCC Algorithms", "value": 3},
+   
+    {"source": "Alice Jarry", "target": "Responsive Environments", "value": 1},
+ 
+    {"source": "Jing Iris Hu", "target": "Zero Carbon Communities", "value": 4},
+
+    {"source": "Jing Iris Hu", "target": "Accessibility", "value": 4},
+
+    {"source": "Chunyan Lai", "target": "Zero Carbon Transport", "value": 5},
+
+    {"source": "Carly Ziter", "target": "Ecosystem Services", "value": 6},
+
+    {"source": "Chunyan Lai", "target": "Electrified Public Transport", "value": 5},
+
+    {"source": "Alice Jarry", "target": "Climate Change", "value": 1},
+    {"source": "Ursula Eicker", "target": "Climate Change", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Climate Change", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Climate Change", "value": 4},
+    {"source": "Chunyan Lai", "target": "Climate Change", "value": 5},
+    {"source": "Carly Ziter", "target": "Climate Change", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Community Engagement", "value": 1},
+
+    {"source": "Mohamed Ouf", "target": "Infrastructures", "value": 3},
+    {"source": "Alice Jarry", "target": "Infrastructures", "value": 1},
+    {"source": "Ursula Eicker", "target": "Infrastructures", "value": 2},
+
+    {"source": "Alice Jarry", "target": "Inclusive Urban Spaces", "value": 1},
+    {"source": "Ursula Eicker", "target": "Inclusive Urban Spaces", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Inclusive Urban Spaces", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Inclusive Urban Spaces", "value": 4},
+    {"source": "Chunyan Lai", "target": "Inclusive Urban Spaces", "value": 5},
+    {"source": "Carly Ziter", "target": "Inclusive Urban Spaces", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Waste Management", "value": 1},
+
+    {"source": "Alice Jarry", "target": "Recycling", "value": 1},
+    
+    {"source": "Alice Jarry", "target": "Upcycling", "value": 1},
+
+    {"source": "Alice Jarry", "target": "Community Well-Being", "value": 1},
+    {"source": "Ursula Eicker", "target": "Community Well-Being", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Community Well-Being", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Community Well-Being", "value": 4},
+    {"source": "Chunyan Lai", "target": "Community Well-Being", "value": 5},
+    {"source": "Carly Ziter", "target": "Community Well-Being", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Healthy Cities", "value": 1},
+    {"source": "Ursula Eicker", "target": "Healthy Cities", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Healthy Cities", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Healthy Cities", "value": 4},
+    {"source": "Chunyan Lai", "target": "Healthy Cities", "value": 5},
+    {"source": "Carly Ziter", "target": "Healthy Cities", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Building Materials", "value": 1},
+
+    {"source": "Mohamed Ouf", "target": "Public Buildings", "value": 3},
+
+    {"source": "Carly Ziter", "target": "Heat Islands", "value": 6},
+    {"source": "Ursula Eicker", "target": "Heat Islands", "value": 2},
+
+    {"source": "Mohamed Ouf", "target": "Artificial Intelligence", "value": 3},
+
+    {"source": "Ursula Eicker", "target": "Geographical Information Systems", "value": 2},
+    {"source": "Carly Ziter", "target": "Geographical Information Systems", "value": 6},
+    {"source": "Mohamed Ouf", "target": "Geographical Information Systems", "value": 3},
+    {"source": "Alice Jarry", "target": "Geographical Information Systems", "value": 1},
+
+    {"source": "Alice Jarry", "target": "Air Filtration", "value": 1},
+
+    {"source": "Alice Jarry", "target": "Building Occupants", "value": 1},
+    {"source": "Mohamed Ouf", "target": "Building Occupants", "value": 3},
+
+    {"source": "Alice Jarry", "target": "Data Collection", "value": 1},
+    {"source": "Ursula Eicker", "target": "Data Collection", "value": 2},
+    {"source": "Mohamed Ouf", "target": "Data Collection", "value": 3},
+    {"source": "Jing Iris Hu", "target": "Data Collection", "value": 4},
+    {"source": "Chunyan Lai", "target": "Data Collection", "value": 5},
+    {"source": "Carly Ziter", "target": "Data Collection", "value": 6},
+
+    {"source": "Alice Jarry", "target": "Data Physicalization", "value": 1},
+
+    {"source": "Jing Iris Hu", "target": "Moral Values", "value": 4},
+    {"source": "Jing Iris Hu", "target": "Citizen Virtues", "value": 4},
+
+    {"source": "Alice Jarry", "target": "Algorithms", "value": 1},
+    {"source": "Mohamed Ouf", "target": "Algorithms", "value": 3},
+
+    {"source": "Alice Jarry", "target": "Adaptive Materials", "value": 1},
+
+    {"source": "Carly Ziter", "target": "Citizen Science", "value": 6}
+
+
+   
+
+   
+  ]
+}

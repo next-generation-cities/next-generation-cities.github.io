@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    
+
+    {"id": "ALICE JARRY", "group": 5, "properties":[{"style":"black"}], "color": "#000"},
+    {"id": "URSULA EICKER", "group": 4, "properties":[{"style":"black"}], "color": "#000"},
+    {"id": "MOHAMED OUF", "group": 3, "properties":[{"style":"black"}], "color": "#000"},
+    {"id": "JING HU", "group": 2, "properties":[{"style":"black"}], "color": "#000"},
+    {"id": "CHUNYAN LAI", "group": 1, "properties":[{"style":"black"}], "color": "#000"},
+    {"id": "CARLY ZITER", "group": 0, "properties":[{"style":"black"}], "color": "#000"},
+
+    {"id": "Renewable Energy", "group": 8, "color": "#5D5D5D"},
+    {"id": "Sustainable Energy", "group": 9, "color": "#5D5D5D"},
+    {"id": "Resilient Future", "group": 10, "color": "#5D5D5D"},
+    {"id": "Design Concepts", "group": 11, "color": "#5D5D5D"}, 
+    {"id": "Battery Charging Stations", "group": 12, "color": "#5D5D5D"}, 
+    {"id": "Smart Buildings", "group": 13, "color": "#5D5D5D"}, 
+    {"id": "Urban Biodiversity", "group": 14, "color": "#5D5D5D"}, 
+    {"id": "Urban Green Spaces", "group": 15, "color": "#5D5D5D"}, 
+    {"id": "Biomaterials", "group": 16, "color": "#5D5D5D"},
+    {"id": "Air Quality", "group": 17, "color": "#5D5D5D"},
+    {"id": "Human Flourishing", "group": 18, "color": "#5D5D5D"},
+    {"id": "Future Generations", "group": 19, "color": "#5D5D5D"},
+    {"id": "Environmental (in)justice", "group": 20, "color": "#5D5D5D"},
+    {"id": "Sensing the City", "group": 21, "color": "#5D5D5D"},
+    {"id": "Data Visualization", "group": 22, "color": "#5D5D5D"},
+    {"id": "Public Art Installations", "group": 23, "color": "#5D5D5D"},
+    {"id": "Open Data", "group": 25, "color": "#5D5D5D"},
+    {"id": "Occupant-centric building design", "group": 26, "color": "#5D5D5D"},
+    {"id": "Responsive Environments", "group": 27, "color": "#5D5D5D"},
+    {"id": "Zero Carbon Communities", "group": 28, "color": "#5D5D5D"},
+    {"id": "Accessibility", "group": 29, "color": "#5D5D5D"},
+    {"id": "Zero Carbon Transport", "group": 30, "color": "#5D5D5D"},
+    {"id": "Ecosystem Services", "group": 31, "color": "#5D5D5D"},
+  
+    {"id": "Community Engagement", "group": 33, "color": "#5D5D5D"},
+    {"id": "Infrastructures", "group": 34, "color": "#5D5D5D"},
+    {"id": "Inclusive Urban Spaces", "group": 35, "color": "#5D5D5D"},
+    {"id": "Waste Management", "group": 36, "color": "#5D5D5D"},
+    {"id": "Recycling", "group": 37, "color": "#5D5D5D"},
+    {"id": "Upcycling", "group": 38, "color": "#5D5D5D"},
+    {"id": "Healthy Cities", "group": 40, "color": "#5D5D5D"},
+    {"id": "Building Materials", "group": 41, "color": "#5D5D5D"},
+    {"id": "Public Buildings", "group": 42, "color": "#5D5D5D"},
+    {"id": "Heat Islands", "group": 43, "color": "#5D5D5D"},
+    {"id": "Machine Learning", "group": 44, "color": "#5D5D5D"},
+    {"id": "Geographical Information Systems", "group": 45, "color": "#5D5D5D"},
+    {"id": "Air Filtration", "group": 46, "color": "#5D5D5D"},
+    {"id": "Building Occupants", "group": 47, "color": "#5D5D5D"},
+    {"id": "Data Collection", "group": 48, "color": "#5D5D5D"},
+    {"id": "Data Physicalization", "group": 49, "color": "#5D5D5D"},
+    {"id": "Environmental Ethics", "group": 50, "color": "#5D5D5D"},
+    {"id": "Next Generation Virtues", "group": 51, "color": "#5D5D5D"},
+    {"id": "Algorithms", "group": 52, "color": "#5D5D5D"},
+    {"id": "Adaptive Materials", "group": 53, "color": "#5D5D5D"},
+    {"id": "Citizen Science", "group": 54, "color": "#5D5D5D"},
+    {"id": "Electrified Public Transport", "group": 55, "color": "#5D5D5D"},
+    {"id": "Building Controls", "group": 56, "color": "#5D5D5D"},
+    {"id": "Building Efficiency", "group": 57, "color": "#5D5D5D"},
+    {"id": "Urban Modeling", "group": 58, "color": "#5D5D5D"},
+    {"id": "Sensor Networks", "group": 59, "color": "#5D5D5D"},
+    {"id": "Smart Grids", "group": 60, "color": "#5D5D5D"},
+
+    {"id": "Resilient Communities", "group": 61, "color": "#5D5D5D"},
+
+    {"id": "Traction Motors and Drives", "group": 62, "color": "#5D5D5D"},
+    {"id": "Electric Vehicles", "group": 63, "color": "#5D5D5D"},
+    {"id": "Energy Networks", "group": 64, "color": "#5D5D5D"},
+    {"id": "Intelligent Transportation System", "group": 65, "color": "#5D5D5D"},
+    {"id": "NEXT-GENERATION CITIES", "properties":[{"style":"black"}], "group": 6, "color": "#000"}
+
+
+  ],
+  "links": [
+
+    {"source": "NEXT-GENERATION CITIES", "target": "ALICE JARRY", "value" : 8, "color": "#000"},
+        {"source": "NEXT-GENERATION CITIES", "target": "CARLY ZITER", "value" : 8, "color": "#000"},
+        {"source": "NEXT-GENERATION CITIES", "target": "MOHAMED OUF", "value" : 8, "color": "#000"},
+        {"source": "NEXT-GENERATION CITIES", "target": "JING HU", "value" : 8, "color": "#000"},
+        {"source": "NEXT-GENERATION CITIES", "target": "URSULA EICKER", "value" : 8, "color": "#000"},
+{"source": "NEXT-GENERATION CITIES", "target": "CHUNYAN LAI", "value" : 8, "color": "#000"},
+
+
+    {"source": "ALICE JARRY", "target": "Renewable Energy", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Renewable Energy", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Renewable Energy", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Renewable Energy", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Renewable Energy", "color": "#33CCFF"},
+    {"source": "CARLY ZITER", "target": "Renewable Energy", "color": "#FF6666"},
+
+    {"source": "URSULA EICKER", "target": "Sustainable Energy", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Sustainable Energy", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Sustainable Energy", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Sustainable Energy", "color": "#33CCFF"},
+
+
+    {"source": "ALICE JARRY", "target": "Resilient Future", "color": "#2A3FAAB3"},
+    {"source": "JING HU", "target": "Resilient Future", "color": "#422893"},
+
+     {"source": "ALICE JARRY", "target": "Design Concepts", "color": "#2A3FAAB3"},
+
+    {"source": "CHUNYAN LAI", "target": "Battery Charging Stations", "color": "#33CCFF"},
+
+    {"source": "MOHAMED OUF", "target": "Smart Buildings", "color": "#2ABF00B3"},
+    {"source": "ALICE JARRY", "target": "Smart Buildings", "color": "#2A3FAAB3"},
+
+    {"source": "CARLY ZITER", "target": "Urban Biodiversity", "color": "#FF6666"},
+
+    {"source": "CARLY ZITER", "target": "Urban Green Spaces", "color": "#FF6666"},
+    {"source": "URSULA EICKER", "target": "Urban Green Spaces", "color": "#008080B3"},
+
+    {"source": "ALICE JARRY", "target": "Biomaterials", "color": "#2A3FAAB3"},
+
+    {"source": "CARLY ZITER", "target": "Air Quality", "color": "#FF6666"},
+    {"source": "ALICE JARRY", "target": "Air Quality", "color": "#2A3FAAB3"},
+
+    {"source": "JING HU", "target": "Human Flourishing", "color": "#422893"},
+
+    {"source": "JING HU", "target": "Future Generations", "color": "#422893"},
+
+    {"source": "CARLY ZITER", "target": "Environmental (in)justice", "color": "#FF6666"},
+
+    {"source": "ALICE JARRY", "target": "Sensing the City", "color": "#2A3FAAB3"},
+    {"source": "CARLY ZITER", "target": "Sensing the City", "color": "#FF6666"},
+
+    {"source": "ALICE JARRY", "target": "Data Visualization", "color": "#2A3FAAB3"},
+
+    {"source": "ALICE JARRY", "target": "Public Art Installations", "color": "#2A3FAAB3"},
+
+    {"source": "URSULA EICKER", "target": "Renewable Energy", "color": "#008080B3"},
+
+    {"source": "ALICE JARRY", "target": "Open Data", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Open Data", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Open Data", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Open Data", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Open Data", "color": "#33CCFF"},
+    {"source": "CARLY ZITER", "target": "Open Data", "color": "#FF6666"},
+
+
+    {"source": "MOHAMED OUF", "target": "Occupant-centric building design", "color": "#2ABF00B3"},
+   
+    {"source": "ALICE JARRY", "target": "Responsive Environments", "color": "#2A3FAAB3"},
+ 
+    {"source": "URSULA EICKER", "target": "Zero Carbon Communities", "color": "#008080B3"},
+    {"source": "JING HU", "target": "Zero Carbon Communities", "color": "#422893"},
+
+    {"source": "JING HU", "target": "Accessibility", "color": "#422893"},
+
+    {"source": "CHUNYAN LAI", "target": "Zero Carbon Transport", "color": "#33CCFF"},
+
+    {"source": "CARLY ZITER", "target": "Ecosystem Services", "color": "#FF6666"},
+
+    {"source": "CHUNYAN LAI", "target": "Electrified Public Transport", "color": "#33CCFF"},
+
+    {"source": "ALICE JARRY", "target": "Community Engagement", "color": "#2A3FAAB3"},
+
+    {"source": "MOHAMED OUF", "target": "Infrastructures", "color": "#2ABF00B3"},
+    {"source": "ALICE JARRY", "target": "Infrastructures", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Infrastructures", "color": "#008080B3"},
+    {"source": "CHUNYAN LAI", "target": "Infrastructures", "color": "#33CCFF"},
+
+
+    {"source": "ALICE JARRY", "target": "Inclusive Urban Spaces", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Inclusive Urban Spaces", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Inclusive Urban Spaces", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Inclusive Urban Spaces", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Inclusive Urban Spaces", "color": "#33CCFF"},
+    {"source": "CARLY ZITER", "target": "Inclusive Urban Spaces", "color": "#FF6666"},
+
+    {"source": "ALICE JARRY", "target": "Waste Management", "color": "#2A3FAAB3"},
+
+    {"source": "ALICE JARRY", "target": "Recycling", "color": "#2A3FAAB3"},
+    
+    {"source": "ALICE JARRY", "target": "Upcycling", "color": "#2A3FAAB3"},
+
+    {"source": "ALICE JARRY", "target": "Healthy Cities", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Healthy Cities", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Healthy Cities", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Healthy Cities", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Healthy Cities", "color": "#33CCFF"},
+    {"source": "CARLY ZITER", "target": "Healthy Cities", "color": "#FF6666"},
+
+    {"source": "ALICE JARRY", "target": "Building Materials", "color": "#2A3FAAB3"},
+
+    {"source": "MOHAMED OUF", "target": "Public Buildings", "color": "#2ABF00B3"},
+
+    {"source": "CARLY ZITER", "target": "Heat Islands", "color": "#FF6666"},
+    {"source": "URSULA EICKER", "target": "Heat Islands", "color": "#008080B3"},
+
+    {"source": "MOHAMED OUF", "target": "Machine Learning", "color": "#2ABF00B3"},
+
+    {"source": "URSULA EICKER", "target": "Geographical Information Systems", "color": "#008080B3"},
+    {"source": "CARLY ZITER", "target": "Geographical Information Systems", "color": "#FF6666"},
+    {"source": "MOHAMED OUF", "target": "Geographical Information Systems", "color": "#2ABF00B3"},
+    {"source": "ALICE JARRY", "target": "Geographical Information Systems", "color": "#2A3FAAB3"},
+
+    {"source": "ALICE JARRY", "target": "Air Filtration", "color": "#2A3FAAB3"},
+
+    {"source": "ALICE JARRY", "target": "Building Occupants", "color": "#2A3FAAB3"},
+    {"source": "MOHAMED OUF", "target": "Building Occupants", "color": "#2ABF00B3"},
+
+    {"source": "ALICE JARRY", "target": "Data Collection", "color": "#2A3FAAB3"},
+    {"source": "URSULA EICKER", "target": "Data Collection", "color": "#008080B3"},
+    {"source": "MOHAMED OUF", "target": "Data Collection", "color": "#2ABF00B3"},
+    {"source": "JING HU", "target": "Data Collection", "color": "#422893"},
+    {"source": "CHUNYAN LAI", "target": "Data Collection", "color": "#33CCFF"},
+    {"source": "CARLY ZITER", "target": "Data Collection", "color": "#FF6666"},
+
+    {"source": "ALICE JARRY", "target": "Data Physicalization", "color": "#2A3FAAB3"},
+
+    {"source": "JING HU", "target": "Environmental Ethics", "color": "#422893"},
+    {"source": "JING HU", "target": "Next Generation Virtues", "color": "#422893"},
+
+    {"source": "ALICE JARRY", "target": "Algorithms", "color": "#2A3FAAB3"},
+    {"source": "MOHAMED OUF", "target": "Algorithms", "color": "#2ABF00B3"},
+
+    {"source": "ALICE JARRY", "target": "Adaptive Materials", "color": "#2A3FAAB3"},
+
+    {"source": "CARLY ZITER", "target": "Citizen Science", "color": "#FF6666"},
+
+    {"source": "MOHAMED OUF", "target": "Building Controls", "color": "#2ABF00B3"},
+
+    {"source": "URSULA EICKER", "target": "Building Efficiency", "color": "#008080B3"},
+
+    {"source": "URSULA EICKER", "target": "Urban Modeling", "color": "#008080B3"},
+
+    {"source": "URSULA EICKER", "target": "Sensor Networks", "color": "#008080B3"},
+
+    {"source": "URSULA EICKER", "target": "Zero Carbon Transport", "color": "#008080B3"},
+
+    {"source": "URSULA EICKER", "target": "Smart Grids", "color": "#008080B3"},
+
+    {"source": "JING HU", "target": "Resilient Communities", "color": "#422893"},
+
+    {"source": "CHUNYAN LAI", "target": "Traction Motors and Drives", "color": "#33CCFF"},
+
+    {"source": "CHUNYAN LAI", "target": "Electric Vehicles", "color": "#33CCFF"},
+
+    {"source": "CHUNYAN LAI", "target": "Energy Networks", "color": "#33CCFF"},
+
+    {"source": "CHUNYAN LAI", "target": "Intelligent Transportation System", "color": "#33CCFF"}
+
+
+   
+  ]
+}

@@ -1,0 +1,154 @@
+<head>
+	<style> body { margin: 0; } </style>
+	<script src="//unpkg.com/force-graph"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+	<!--<script src="../../dist/force-graph.js"></script>-->
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/_stylish-portfolio.css" rel="stylesheet">
+	 <!-- Custom Bootstrap -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+</head>
+<body>
+
+                <body id="page-top">
+                    <!-- Navigation -->
+                    <a class="menu-toggle rounded" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <nav id="sidebar-wrapper">
+                        <ul class="sidebar-nav">
+                            <li class="sidebar-brand">
+                                <a class="js-scroll-trigger" href="#page-top">Niyolpaki</a>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a class="js-scroll-trigger" href="#page-top">
+                                    <br><br>
+                                    <p>
+
+                                    NEXT-GENERATION CITIES
+                                    <br><br><br><br>
+
+                                    ** Please "double click" over the nodes to drag them.
+
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Bootstrap core JavaScript -->
+                    <script src="vendor/jquery/jquery.min.js"></script>
+                    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <!-- Plugin JavaScript -->
+                    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                    <!-- Custom scripts for this template -->
+                    <script src="js/stylish-portfolio.min.js"></script>
+
+	<!-- #422893-->
+	<div id="graph"></div>
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap);
+	body {
+	font-family: 'Lexend Deca', sans-serif;
+	line-height: 160%; font-size: 18px;  margin: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg, #fff, #C1FFFE, #fff );
+	background-size: 200% 100%;
+	-webkit-animation: Gradient 180s ease infinite;
+	-moz-animation: Gradient 180s ease infinite;
+	animation: Gradient 180s ease infinite;
+	
+	}
+	/*
+	#FFA4DC
+	*/
+	
+	path.link {
+	fill: none;
+	stroke-width: 14px;
+	}
+	@-webkit-keyframes Gradient {
+	0% {
+	background-position: 0% 50%
+	}
+	50% {
+	background-position: 100% 50%
+	}
+	100% {
+	background-position: 0% 50%
+	}
+	}
+	@-moz-keyframes Gradient {
+	0% {
+	background-position: 0% 50%
+	}
+	50% {
+	background-position: 100% 50%
+	}
+	100% {
+	background-position: 0% 50%
+	}
+	}
+	@keyframes Gradient {
+	0% {
+	background-position: 0% 50%
+	}
+	50% {
+	background-position: 100% 50%
+	}
+	100% {
+	background-position: 0% 50%
+	}
+	}
+	
+	}
+	.node:not(:hover) .nodetext {
+	display: none;
+	}
+	h1 { font-size: 16px; margin: 10px 0; text-transform: uppercase; font-weight: normal;}
+	h2, h3 { font-size: 16px; margin: 5px 0 ; font-weight: normal;}
+	header {padding: 20px; position: absolute; top: 0; left: 0;}
+	a:link { color: #45E79B; text-decoration: none;}
+	a:visited { color: #EE3124; }
+	a:hover { color: #A4CD39; text-decoration: underline;}
+	a:active { color: #EE3124; }
+	</style>
+	<script>
+	fetch('cercc.json').then(res => res.json()).then(data => {
+	const Graph = ForceGraph()
+	(document.getElementById('graph'))
+	.graphData(data)
+	.zoom(3.3)
+	.nodeId('id')
+	.linkCurvature(0.25)
+	.linkWidth(2)
+	.linkAutoColorBy('color')
+	.nodeColor(0, 0, 0)
+	.nodeAutoColorBy('group')
+	.nodeCanvasObject((node, ctx, globalScale) => {
+	const label = node.id;
+	const fontSize = 15/globalScale;
+	ctx.font = `${fontSize}px Lexend Deca`;
+	const textWidth = ctx.measureText(label).width;
+	const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * -0.5); // some padding
+	ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+	ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+	//ctx.stroke();
+	ctx.beginPath();
+	ctx.fillStyle = 'rgba(255, 218, 0, 0.6)';
+	//ctx.fillStyle = 'rgba(255, 255, 255, 1)';
+	ctx.ellipse(node.x, node.y, 3, 3, Math.PI / 4, 0, 2 * Math.PI);
+	ctx.fill();
+	ctx.textAlign = 'center';
+	ctx.textBaseline = 'middle';
+	ctx.fillStyle = node.color;
+	ctx.fillText(label, node.x, node.y);
+	});
+	});
+	
+	</script>
+</body>
