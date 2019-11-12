@@ -67,18 +67,18 @@
     {"id": "Electric Vehicles", "group": 63, "color": "#5D5D5D"},
     {"id": "Energy Networks", "group": 64, "color": "#5D5D5D"},
     {"id": "Intelligent Transportation System", "group": 65, "color": "#5D5D5D"},
-    {"id": "NEXT-GENERATION CITIES", "properties":[{"style":"black"}], "group": 6, "color": "#000"}
+    {"id": "CERC, NEXT-GENERATION CITIES CLUSTER", "properties":[{"style":"black"}], "group": 6, "color": "#000"}
 
 
   ],
   "links": [
 
-    {"source": "NEXT-GENERATION CITIES", "target": "ALICE JARRY", "value" : 8, "color": "#000"},
-        {"source": "NEXT-GENERATION CITIES", "target": "CARLY ZITER", "value" : 8, "color": "#000"},
-        {"source": "NEXT-GENERATION CITIES", "target": "MOHAMED OUF", "value" : 8, "color": "#000"},
-        {"source": "NEXT-GENERATION CITIES", "target": "JING HU", "value" : 8, "color": "#000"},
-        {"source": "NEXT-GENERATION CITIES", "target": "URSULA EICKER", "value" : 8, "color": "#000"},
-{"source": "NEXT-GENERATION CITIES", "target": "CHUNYAN LAI", "value" : 8, "color": "#000"},
+    {"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "ALICE JARRY", "value" : 8, "color": "#000"},
+        {"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "CARLY ZITER", "value" : 8, "color": "#000"},
+        {"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "MOHAMED OUF", "value" : 8, "color": "#000"},
+        {"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "JING HU", "value" : 8, "color": "#000"},
+        {"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "URSULA EICKER", "value" : 8, "color": "#000"},
+{"source": "CERC, NEXT-GENERATION CITIES CLUSTER", "target": "CHUNYAN LAI", "value" : 8, "color": "#000"},
 
 
     {"source": "ALICE JARRY", "target": "Renewable Energy", "color": "#2A3FAAB3"},
