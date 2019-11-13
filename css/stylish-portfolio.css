@@ -238,7 +238,7 @@ h6 {
 .menu-toggle {
     position: fixed;
     right: 15px;
-    top: 15px;
+    top: 92%;
     width: 400px!important;
     height: 400px;
     text-align: center;
